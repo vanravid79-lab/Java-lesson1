@@ -31,9 +31,6 @@ public abstract class Shape {
         return type;
     }
 
-    // abstract method
-    public abstract double calculateArea();
-    public abstract double calculatePerimeter();
 
     // form 5:
     @Override

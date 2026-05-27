@@ -1,7 +1,7 @@
 package oop.abstraction;
 
 // applied encap
-public class Rectagle extends Shape {
+public class Rectagle extends Shape implements Measurable {
     private Double length;
     private Double width;
 
@@ -47,6 +47,7 @@ public class Rectagle extends Shape {
     }
 
     // overrid from obstract class Shape
+    // insert the form to calculate Area of Rectagle
     @Override
     public  double calculateArea(){
         return width*length;
