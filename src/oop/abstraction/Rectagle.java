@@ -12,9 +12,9 @@ public class Rectagle extends Shape implements Measurable {
     @Override
     // method
     public void myInfo() {
-//        System.out.println("Type: " + getType());
-//        System.out.println("Length: " + length);
-//        System.out.println("Width: " +  width);
+       System.out.println("Type: " + getType());
+       System.out.println("Length: " + length);
+       System.out.println("Width: " +  width);
 
         System.out.printf("""
                      %s { length: %.2f , width: %.2f }

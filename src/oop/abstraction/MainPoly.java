@@ -10,6 +10,9 @@ public class MainPoly {
         // we use like this
         // obj with const Rectagle and store in class Shape Parent
         System.out.println("===============Rectangle==============");
+        // it's called OOP polymorphism
+        // mean class Shape, it's subclass and store value in const subclass
+        // Rectagle
         Shape shape2 = new Rectagle("Rec", 30.00, 20.00);
         shape2.myInfo();
 
